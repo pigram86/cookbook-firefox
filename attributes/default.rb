@@ -17,4 +17,4 @@
 # limitations under the License.
 #
 
-default[:firefox][:url] = "http://hicap.frontmotion.com.s3.amazonaws.com/Firefox/Firefox-24.0/Firefox-24.0-en-US.msi"
+default['firefox']['url'] = "http://hicap.frontmotion.com.s3.amazonaws.com/Firefox/Firefox-24.0/Firefox-24.0-en-US.msi"

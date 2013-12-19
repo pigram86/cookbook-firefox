@@ -18,7 +18,7 @@
 #
 # install firefox
 windows_package "Firefox" do 
-  source node[:firefox][:url]
+  source node['firefox']['url']
   action :install
   not_if {reboot_pending?}
 end
